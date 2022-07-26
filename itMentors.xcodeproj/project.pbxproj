@@ -56,6 +56,7 @@
 		0B26097D2890001100DA573D /* itMentors */ = {
 			isa = PBXGroup;
 			children = (
+				0B2609952890717E00DA573D /* Models */,
 				0B2609932890002E00DA573D /* ViewControllers */,
 				0B2609942890003900DA573D /* Storyboards */,
 				0B2609922890002000DA573D /* App */,
@@ -89,6 +90,13 @@
 				0B2609892890001300DA573D /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0B2609952890717E00DA573D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
