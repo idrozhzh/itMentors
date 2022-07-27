@@ -13,6 +13,9 @@
 		0B2609862890001100DA573D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609842890001100DA573D /* Main.storyboard */; };
 		0B2609882890001300DA573D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609872890001300DA573D /* Assets.xcassets */; };
 		0B26098B2890001300DA573D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609892890001300DA573D /* LaunchScreen.storyboard */; };
+		AD61B67728913FB100881A8D /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B67628913FB100881A8D /* Developer.swift */; };
+		AD61B67A289147DC00881A8D /* DeveloperData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B679289147DC00881A8D /* DeveloperData.swift */; };
+		AD61B67C2891700F00881A8D /* DevelopersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B67B2891700F00881A8D /* DevelopersListViewController.swift */; };
 		B38700D328907F1D00568C86 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D228907F1D00568C86 /* Mentor.swift */; };
 		B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D5289147A100568C86 /* MentorDataStore.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +29,9 @@
 		0B2609872890001300DA573D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B26098A2890001300DA573D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B26098C2890001300DA573D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD61B67628913FB100881A8D /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		AD61B679289147DC00881A8D /* DeveloperData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperData.swift; sourceTree = "<group>"; };
+		AD61B67B2891700F00881A8D /* DevelopersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopersListViewController.swift; sourceTree = "<group>"; };
 		B38700D228907F1D00568C86 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		B38700D5289147A100568C86 /* MentorDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +66,11 @@
 		0B26097D2890001100DA573D /* itMentors */ = {
 			isa = PBXGroup;
 			children = (
+
+				AD61B6782891474400881A8D /* Services */,
+
 				B38700D42891476600568C86 /* Sources */,
+
 				0B2609952890717E00DA573D /* Models */,
 				0B2609932890002E00DA573D /* ViewControllers */,
 				0B2609942890003900DA573D /* Storyboards */,
@@ -84,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				0B2609822890001100DA573D /* ViewController.swift */,
+				AD61B67B2891700F00881A8D /* DevelopersListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -101,10 +112,17 @@
 			isa = PBXGroup;
 			children = (
 				B38700D228907F1D00568C86 /* Mentor.swift */,
+				AD61B67628913FB100881A8D /* Developer.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
 		};
+		AD61B6782891474400881A8D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AD61B679289147DC00881A8D /* DeveloperData.swift */,
+			);
+			path = Services;
 		B38700D42891476600568C86 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,7 +204,10 @@
 			files = (
 				B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */,
 				B38700D328907F1D00568C86 /* Mentor.swift in Sources */,
+				AD61B67728913FB100881A8D /* Developer.swift in Sources */,
+				AD61B67A289147DC00881A8D /* DeveloperData.swift in Sources */,
 				0B2609832890001100DA573D /* ViewController.swift in Sources */,
+				AD61B67C2891700F00881A8D /* DevelopersListViewController.swift in Sources */,
 				0B26097F2890001100DA573D /* AppDelegate.swift in Sources */,
 				0B2609812890001100DA573D /* SceneDelegate.swift in Sources */,
 			);
