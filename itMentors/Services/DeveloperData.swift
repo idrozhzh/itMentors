@@ -25,7 +25,7 @@ class DeveloperData {
         "Ибрагимов"
     ]
     let telegrams = [
-        "pisuil",
+        "@pisuil",
         "@i_drozhzh",
         "@meetigor" ,
         "@DatsukMaxim",

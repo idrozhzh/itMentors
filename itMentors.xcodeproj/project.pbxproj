@@ -15,6 +15,7 @@
 		0B26098B2890001300DA573D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609892890001300DA573D /* LaunchScreen.storyboard */; };
 		AD61B67728913FB100881A8D /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B67628913FB100881A8D /* Developer.swift */; };
 		AD61B67A289147DC00881A8D /* DeveloperData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B679289147DC00881A8D /* DeveloperData.swift */; };
+		AD61B67C2891700F00881A8D /* DevelopersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B67B2891700F00881A8D /* DevelopersListViewController.swift */; };
 		B38700D328907F1D00568C86 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D228907F1D00568C86 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		0B26098C2890001300DA573D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD61B67628913FB100881A8D /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		AD61B679289147DC00881A8D /* DeveloperData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperData.swift; sourceTree = "<group>"; };
+		AD61B67B2891700F00881A8D /* DevelopersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopersListViewController.swift; sourceTree = "<group>"; };
 		B38700D228907F1D00568C86 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				0B2609822890001100DA573D /* ViewController.swift */,
+				AD61B67B2891700F00881A8D /* DevelopersListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				AD61B67728913FB100881A8D /* Developer.swift in Sources */,
 				AD61B67A289147DC00881A8D /* DeveloperData.swift in Sources */,
 				0B2609832890001100DA573D /* ViewController.swift in Sources */,
+				AD61B67C2891700F00881A8D /* DevelopersListViewController.swift in Sources */,
 				0B26097F2890001100DA573D /* AppDelegate.swift in Sources */,
 				0B2609812890001100DA573D /* SceneDelegate.swift in Sources */,
 			);
