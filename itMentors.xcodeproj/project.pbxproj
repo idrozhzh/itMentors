@@ -13,6 +13,7 @@
 		0B2609862890001100DA573D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609842890001100DA573D /* Main.storyboard */; };
 		0B2609882890001300DA573D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609872890001300DA573D /* Assets.xcassets */; };
 		0B26098B2890001300DA573D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609892890001300DA573D /* LaunchScreen.storyboard */; };
+		0BB5B0442891DC7E006EF106 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0BB5B0432891DC7E006EF106 /* .gitignore */; };
 		B38700D328907F1D00568C86 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D228907F1D00568C86 /* Mentor.swift */; };
 		B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D5289147A100568C86 /* MentorDataStore.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		0B2609872890001300DA573D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B26098A2890001300DA573D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B26098C2890001300DA573D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB5B0432891DC7E006EF106 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B38700D228907F1D00568C86 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		B38700D5289147A100568C86 /* MentorDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 				0B2609942890003900DA573D /* Storyboards */,
 				0B2609922890002000DA573D /* App */,
 				0B26098C2890001300DA573D /* Info.plist */,
+				0BB5B0432891DC7E006EF106 /* .gitignore */,
 			);
 			path = itMentors;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB5B0442891DC7E006EF106 /* .gitignore in Resources */,
 				0B26098B2890001300DA573D /* LaunchScreen.storyboard in Resources */,
 				0B2609882890001300DA573D /* Assets.xcassets in Resources */,
 				0B2609862890001100DA573D /* Main.storyboard in Resources */,
