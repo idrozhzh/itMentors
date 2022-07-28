@@ -14,6 +14,7 @@
 		0B2609882890001300DA573D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609872890001300DA573D /* Assets.xcassets */; };
 		0B26098B2890001300DA573D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609892890001300DA573D /* LaunchScreen.storyboard */; };
 		0BB5B0442891DC7E006EF106 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0BB5B0432891DC7E006EF106 /* .gitignore */; };
+		0BF6D78F2892558B0003D0A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF6D78E2892558B0003D0A2 /* User.swift */; };
 		B38700D328907F1D00568C86 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D228907F1D00568C86 /* Mentor.swift */; };
 		B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D5289147A100568C86 /* MentorDataStore.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		0B26098A2890001300DA573D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B26098C2890001300DA573D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB5B0432891DC7E006EF106 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0BF6D78E2892558B0003D0A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B38700D228907F1D00568C86 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		B38700D5289147A100568C86 /* MentorDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				B38700D228907F1D00568C86 /* Mentor.swift */,
+				0BF6D78E2892558B0003D0A2 /* User.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */,
 				B38700D328907F1D00568C86 /* Mentor.swift in Sources */,
+				0BF6D78F2892558B0003D0A2 /* User.swift in Sources */,
 				0B2609832890001100DA573D /* ViewController.swift in Sources */,
 				0B26097F2890001100DA573D /* AppDelegate.swift in Sources */,
 				0B2609812890001100DA573D /* SceneDelegate.swift in Sources */,
