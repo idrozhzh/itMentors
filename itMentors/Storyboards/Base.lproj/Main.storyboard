@@ -74,6 +74,7 @@
                             <constraint firstItem="WT4-LG-uSD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mRl-jh-w4h"/>
                             <constraint firstItem="va5-YV-yfa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nQg-9K-KUJ"/>
                             <constraint firstItem="WT4-LG-uSD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ndN-pM-0ap"/>
+                            <constraint firstItem="WT4-LG-uSD" firstAttribute="top" relation="greaterThanOrEqual" secondItem="va5-YV-yfa" secondAttribute="bottom" constant="5" id="o3V-HY-DrW"/>
                             <constraint firstItem="0iq-uI-vSJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="utc-g0-gPm"/>
                         </constraints>
                     </view>
