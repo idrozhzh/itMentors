@@ -19,13 +19,14 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginBtnTapped() {
         if loginTF.text == "" && passwordTF.text == "" {
-            let alert = UIAlertController(title: "Oops, you enter empty login or password🫥", message: "Enter correct password and login", preferredStyle: .alert)
-            let action = UIAlertAction(title: "OK", style: .default)
-            alert.addAction(action)
-            present(alert, animated: true)
+            showAllert(title: "Oops, you enter empty login or password🫥", message: "Enter correct password and login")
         } else {
             performSegue(withIdentifier: "mainVC", sender: nil)
         }
+    }
+    
+    @IBAction func registrationBtnTapped() {
+        showAllert(title: "Something went wrong", message: "Will be available in the next development iteration")
     }
     
     // MARK: - Navigation
@@ -41,6 +42,12 @@ class LoginViewController: UIViewController {
 
 // MARK: - Extensions
 extension LoginViewController {
+    func showAllert (title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default)
+        alert.addAction(action)
+        present(alert, animated: true)
+    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)

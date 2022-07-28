@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WT4-LG-uSD">
-                                <rect key="frame" x="107" y="383.5" width="200" height="139"/>
+                                <rect key="frame" x="107" y="358" width="200" height="190"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B8Z-NA-BOk">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="34"/>
@@ -35,6 +35,14 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Login"/>
                                         <connections>
                                             <action selector="loginBtnTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="x7O-bM-BG0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufd-B7-ihB">
+                                        <rect key="frame" x="0.0" y="159" width="200" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Registration"/>
+                                        <connections>
+                                            <action selector="registrationBtnTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="0aA-9S-dpP"/>
                                         </connections>
                                     </button>
                                 </subviews>
