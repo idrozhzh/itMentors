@@ -59,15 +59,15 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="getMeIt" translatesAutoresizingMaskIntoConstraints="NO" id="va5-YV-yfa">
-                                <rect key="frame" x="107" y="102" width="200" height="100"/>
+                                <rect key="frame" x="107" y="102" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="1pV-ge-ONN"/>
+                                    <constraint firstAttribute="height" constant="200" id="1pV-ge-ONN"/>
                                     <constraint firstAttribute="width" constant="200" id="235-eP-FAS"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="va5-YV-yfa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="TAG-Gx-zaB"/>
                             <constraint firstItem="0iq-uI-vSJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="g4Q-KH-kbv"/>
@@ -79,6 +79,7 @@
                     </view>
                     <connections>
                         <outlet property="loginTF" destination="B8Z-NA-BOk" id="CHX-qW-DD1"/>
+                        <outlet property="logoImage" destination="va5-YV-yfa" id="5yo-Kp-FTF"/>
                         <outlet property="passwordTF" destination="o77-yP-r31" id="Nao-Ip-dbI"/>
                         <segue destination="cT4-1q-0dW" kind="presentation" identifier="mainVC" modalPresentationStyle="fullScreen" id="CO5-aB-Ct5"/>
                     </connections>

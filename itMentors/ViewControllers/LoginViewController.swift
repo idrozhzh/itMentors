@@ -11,10 +11,15 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var loginTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
-
+    @IBOutlet weak var logoImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        logoImage.layer.borderWidth = 1
+        logoImage.layer.masksToBounds = false
+        logoImage.layer.borderColor = UIColor.white.cgColor
+        logoImage.layer.cornerRadius = logoImage.frame.height / 2
+        logoImage.clipsToBounds = true
     }
 
     @IBAction func loginBtnTapped() {
@@ -35,9 +40,8 @@ class LoginViewController: UIViewController {
             let user = User(login: loginTF.text ?? "", password: passwordTF.text ?? "")
             // Realise you logic to transfer User
         }
-        //Realise you logic to dev team
+        //Realise you logic to show dev team
     }
-
 }
 
 // MARK: - Extensions
