@@ -15,6 +15,8 @@
 		0B26098B2890001300DA573D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2609892890001300DA573D /* LaunchScreen.storyboard */; };
 		0BB5B0442891DC7E006EF106 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0BB5B0432891DC7E006EF106 /* .gitignore */; };
 		0BF6D78F2892558B0003D0A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF6D78E2892558B0003D0A2 /* User.swift */; };
+		AD61B6842892A97400881A8D /* DeveloperDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6832892A97400881A8D /* DeveloperDataStore.swift */; };
+		AD61B6862892A98100881A8D /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6852892A98100881A8D /* Developer.swift */; };
 		B38700D328907F1D00568C86 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D228907F1D00568C86 /* Mentor.swift */; };
 		B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D5289147A100568C86 /* MentorDataStore.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		0B26098C2890001300DA573D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB5B0432891DC7E006EF106 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0BF6D78E2892558B0003D0A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AD61B6832892A97400881A8D /* DeveloperDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperDataStore.swift; sourceTree = "<group>"; };
+		AD61B6852892A98100881A8D /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		B38700D228907F1D00568C86 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		B38700D5289147A100568C86 /* MentorDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +111,7 @@
 			children = (
 				B38700D228907F1D00568C86 /* Mentor.swift */,
 				0BF6D78E2892558B0003D0A2 /* User.swift */,
+				AD61B6852892A98100881A8D /* Developer.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				B38700D5289147A100568C86 /* MentorDataStore.swift */,
+				AD61B6832892A97400881A8D /* DeveloperDataStore.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -191,11 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD61B6862892A98100881A8D /* Developer.swift in Sources */,
 				B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */,
 				B38700D328907F1D00568C86 /* Mentor.swift in Sources */,
 				0BF6D78F2892558B0003D0A2 /* User.swift in Sources */,
 				0B2609832890001100DA573D /* LoginViewController.swift in Sources */,
 				0B26097F2890001100DA573D /* AppDelegate.swift in Sources */,
+				AD61B6842892A97400881A8D /* DeveloperDataStore.swift in Sources */,
 				0B2609812890001100DA573D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
