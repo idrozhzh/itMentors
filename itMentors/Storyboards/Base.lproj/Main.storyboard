@@ -59,22 +59,22 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="getMeIt" translatesAutoresizingMaskIntoConstraints="NO" id="va5-YV-yfa">
-                                <rect key="frame" x="107" y="102" width="200" height="200"/>
+                                <rect key="frame" x="157" y="60" width="100" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="1pV-ge-ONN"/>
-                                    <constraint firstAttribute="width" constant="200" id="235-eP-FAS"/>
+                                    <constraint firstAttribute="height" constant="100" id="YSZ-no-QeX"/>
+                                    <constraint firstAttribute="width" constant="100" id="tCp-Gd-QJW"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="va5-YV-yfa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="TAG-Gx-zaB"/>
+                            <constraint firstItem="va5-YV-yfa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="bA0-dX-63w"/>
                             <constraint firstItem="0iq-uI-vSJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="g4Q-KH-kbv"/>
                             <constraint firstItem="WT4-LG-uSD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mRl-jh-w4h"/>
                             <constraint firstItem="va5-YV-yfa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nQg-9K-KUJ"/>
                             <constraint firstItem="WT4-LG-uSD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ndN-pM-0ap"/>
-                            <constraint firstItem="WT4-LG-uSD" firstAttribute="top" relation="greaterThanOrEqual" secondItem="va5-YV-yfa" secondAttribute="bottom" constant="5" id="o3V-HY-DrW"/>
+                            <constraint firstItem="WT4-LG-uSD" firstAttribute="top" relation="greaterThanOrEqual" secondItem="va5-YV-yfa" secondAttribute="bottom" constant="16" id="o3V-HY-DrW"/>
                             <constraint firstItem="0iq-uI-vSJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="utc-g0-gPm"/>
                         </constraints>
                     </view>
