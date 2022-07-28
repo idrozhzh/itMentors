@@ -29,7 +29,6 @@ class LoginViewController: UIViewController {
     }
     
     // MARK: - Navigation
-    //Переход к dev team
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "mainVC" {
             let user = User(login: loginTF.text ?? "", password: passwordTF.text ?? "")
