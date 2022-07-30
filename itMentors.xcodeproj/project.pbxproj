@@ -18,6 +18,7 @@
 		AD61B6842892A97400881A8D /* DeveloperDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6832892A97400881A8D /* DeveloperDataStore.swift */; };
 		AD61B6862892A98100881A8D /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6852892A98100881A8D /* Developer.swift */; };
 		AD61B6882892B41400881A8D /* DevelopersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6872892B41400881A8D /* DevelopersListViewController.swift */; };
+		AD61B68A2893171A00881A8D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6892893171A00881A8D /* SearchViewController.swift */; };
 		B38700D328907F1D00568C86 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D228907F1D00568C86 /* Mentor.swift */; };
 		B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D5289147A100568C86 /* MentorDataStore.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		AD61B6832892A97400881A8D /* DeveloperDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperDataStore.swift; sourceTree = "<group>"; };
 		AD61B6852892A98100881A8D /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		AD61B6872892B41400881A8D /* DevelopersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopersListViewController.swift; sourceTree = "<group>"; };
+		AD61B6892893171A00881A8D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B38700D228907F1D00568C86 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		B38700D5289147A100568C86 /* MentorDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 			children = (
 				0B2609822890001100DA573D /* LoginViewController.swift */,
 				AD61B6872892B41400881A8D /* DevelopersListViewController.swift */,
+				AD61B6892893171A00881A8D /* SearchViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD61B68A2893171A00881A8D /* SearchViewController.swift in Sources */,
 				AD61B6862892A98100881A8D /* Developer.swift in Sources */,
 				B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */,
 				B38700D328907F1D00568C86 /* Mentor.swift in Sources */,
