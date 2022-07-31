@@ -23,6 +23,7 @@
 		AD61B68A2893171A00881A8D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6892893171A00881A8D /* SearchViewController.swift */; };
 		B38700D328907F1D00568C86 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D228907F1D00568C86 /* Mentor.swift */; };
 		B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D5289147A100568C86 /* MentorDataStore.swift */; };
+		B38700D82896903D00568C86 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38700D72896903D00568C86 /* SearchResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		AD61B6892893171A00881A8D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B38700D228907F1D00568C86 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		B38700D5289147A100568C86 /* MentorDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorDataStore.swift; sourceTree = "<group>"; };
+		B38700D72896903D00568C86 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0B2609822890001100DA573D /* LoginViewController.swift */,
 				AD61B6872892B41400881A8D /* DevelopersListViewController.swift */,
 				AD61B6892893171A00881A8D /* SearchViewController.swift */,
+				B38700D72896903D00568C86 /* SearchResultsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				AD61B68A2893171A00881A8D /* SearchViewController.swift in Sources */,
 				AD61B6862892A98100881A8D /* Developer.swift in Sources */,
 				B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */,
+				B38700D82896903D00568C86 /* SearchResultsViewController.swift in Sources */,
 				B38700D328907F1D00568C86 /* Mentor.swift in Sources */,
 				0BF6D78F2892558B0003D0A2 /* User.swift in Sources */,
 				0B2609832890001100DA573D /* LoginViewController.swift in Sources */,
