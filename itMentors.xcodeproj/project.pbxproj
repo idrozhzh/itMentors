@@ -16,6 +16,7 @@
 		0BB5B0442891DC7E006EF106 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0BB5B0432891DC7E006EF106 /* .gitignore */; };
 		0BE27BA82895876800A88574 /* Mentor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE27BA72895876800A88574 /* Mentor.storyboard */; };
 		0BF6D78F2892558B0003D0A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF6D78E2892558B0003D0A2 /* User.swift */; };
+		94594DDF28968D9400A39009 /* RenatPart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94594DDE28968D9400A39009 /* RenatPart.storyboard */; };
 		AD61B6842892A97400881A8D /* DeveloperDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6832892A97400881A8D /* DeveloperDataStore.swift */; };
 		AD61B6862892A98100881A8D /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6852892A98100881A8D /* Developer.swift */; };
 		AD61B6882892B41400881A8D /* DevelopersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6872892B41400881A8D /* DevelopersListViewController.swift */; };
@@ -36,6 +37,7 @@
 		0BB5B0432891DC7E006EF106 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0BE27BA72895876800A88574 /* Mentor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mentor.storyboard; sourceTree = "<group>"; };
 		0BF6D78E2892558B0003D0A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		94594DDE28968D9400A39009 /* RenatPart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RenatPart.storyboard; sourceTree = "<group>"; };
 		AD61B6832892A97400881A8D /* DeveloperDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperDataStore.swift; sourceTree = "<group>"; };
 		AD61B6852892A98100881A8D /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		AD61B6872892B41400881A8D /* DevelopersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopersListViewController.swift; sourceTree = "<group>"; };
@@ -109,8 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				0B2609842890001100DA573D /* Main.storyboard */,
-				0B2609892890001300DA573D /* LaunchScreen.storyboard */,
 				0BE27BA72895876800A88574 /* Mentor.storyboard */,
+				94594DDE28968D9400A39009 /* RenatPart.storyboard */,
+				0B2609892890001300DA573D /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94594DDF28968D9400A39009 /* RenatPart.storyboard in Resources */,
 				0BB5B0442891DC7E006EF106 /* .gitignore in Resources */,
 				0B26098B2890001300DA573D /* LaunchScreen.storyboard in Resources */,
 				0BE27BA82895876800A88574 /* Mentor.storyboard in Resources */,
